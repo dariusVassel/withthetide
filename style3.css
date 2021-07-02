@@ -78,8 +78,8 @@ body {
 }
 
 .inner-footer .logo-container {
-  align-items: center;
-  text-align-last: center;
+  align-items: left;
+  text-align-last: left;
   width: 35%;
   float: left;
   height: 100%;
@@ -87,64 +87,68 @@ body {
 }
 
 .inner-footer .logo-container img {
-  text-align-last: center;
+  text-align-last: left;
   width: 60%;
   height: auto;
 }
 
 .inner-footer .footer-third {
-  text-align-last: center;
-  /*width: calc(21.666667% - 20px);*/
+  width: calc(21.666667% - 20px);
   margin-right: 10px;
-  float: left;
   height: 100%;
+  float: left;
 }
 
 .inner-footer .footer-third:last-child() {
-  text-align-last: center;
+  text-align-last: left;
   margin-right: 0;
   font-size: 12px;
 }
 
 .inner-footer .footer-third h1 {
-  text-align-last: center;
+  text-align-last: left;
   font-family: Open Sans, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   display: block;
   margin-bottom: 20px;
   width: 100%;
+  padding-bottom: 0;
 }
 
 .inner-footer .footer-third h2 {
-  text-align-last: center;
+  text-align-last: left;
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   margin-bottom: 20px;
   width: 100%;
+  padding-top: 0;
+  font-weight: 0;
+  padding-bottom: 0px;
 }
 
 .inner-footer .footer-third p {
-  text-align-last: center;
   font-family: Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   margin-bottom: 20px;
   font-weight: 200px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   width: 100%;
 }
 
 .inner-footer .footer-third li {
   display: inline-block;
-  padding: 0 5px;
-  font-size: 18px;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: black;
+  float: left;
 }
 
 #copywright-tag {
-  text-align-last: center;
+  text-align-last: left;
   font-family: Open Sans, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   display: block;
   margin-bottom: 20px;
   width: 100%;
